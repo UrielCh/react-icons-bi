@@ -15,8 +15,8 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/bi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-bi@1.0.4/mod.ts",
-    "react-icons/bi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-bi@1.0.4/ico/",
+    "react-icons/bi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-bi@1.0.5/mod.ts",
+    "react-icons/bi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-bi@1.0.5/ico/",
   }
 }
 ```
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Direct import sample
 
 ```ts
-import { BiAbacus } from "https://deno.land/x/react_icons_bi@1.0.4/mod.ts"
+import { BiAbacus } from "https://deno.land/x/react_icons_bi@1.0.5/mod.ts"
 ```
 
 ## import_map import sample
