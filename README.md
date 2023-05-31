@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { BiAbacus } from "https://deno.land/x/react_icons_bi@1.0.1/mod.ts"`
+```ts
+import { BiAbacus } from "https://deno.land/x/react_icons_bi@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { BiAbacus } from "react-icons/bi"`
+```ts
+import { BiAbacus } from "react-icons/bi"
+```
 
 ## minimal import
 
-`import { BiAbacus } from "react-icons/bi/BiAbacus.ts"`
+```ts
+import { BiAbacus } from "react-icons/bi/BiAbacus.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import BiAbacus from "react-icons/bi/BiAbacus.ts"`
+```ts
+import BiAbacus from "react-icons/bi/BiAbacus.ts"
+```
 
