@@ -13,18 +13,27 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact": "https://esm.sh/preact@10.15.1",
+    "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/bi": "https://deno.land/x/react_icons_bi@1.0.0//mod.ts",
+    "react-icons/bi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-bi@1.0.1/mod.ts",
+    "react-icons/bi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-bi/ico/",
   }
 }
 ```
 
 ## Direct import sample
 
-`import { BiAbacus } from "https://deno.land/x/react_icons_bi@1.0.0/mod.ts"`
+`import { BiAbacus } from "https://deno.land/x/react_icons_bi@1.0.1/mod.ts"`
 
 ## import_map import sample
 
 `import { BiAbacus } from "react-icons/bi"`
+
+## minimal import
+
+`import { BiAbacus } from "react-icons/bi/BiAbacus.ts"`
+
+## minimal import default
+
+`import BiAbacus from "react-icons/bi/BiAbacus.ts"`
 
