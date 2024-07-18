@@ -42,5 +42,5 @@ import { BiAbacus } from "react-icons/bi/BiAbacus"
 or using default export
 
 ```ts
-import BiAbacus from "react-icons/bi/BiAbacus.ts"
+import BiAbacus from "react-icons/bi/BiAbacus"
 ```
