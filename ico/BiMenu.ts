@@ -2,7 +2,8 @@ import { GenIcon } from "../deps.ts";
 import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
 /**
- * Menu from BoxIcons
+ * Menu icon from BoxIcons
+ * @module
  */
 export function BiMenu(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"}}]})(props);

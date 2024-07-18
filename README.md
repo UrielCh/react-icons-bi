@@ -1,6 +1,8 @@
 # BoxIcons icons for preact
 
-[![JSR](https://jsr.io/badges/@preact-icons/bi)](https://jsr.io/@preact-icons/name)**License** [CC BY 4.0 License](https://github.com/atisawd/boxicons/blob/master/LICENSE)
+[![JSR](https://jsr.io/badges/@preact-icons/bi)](https://jsr.io/@preact-icons/bi)
+
+**License** [CC BY 4.0 License](https://github.com/atisawd/boxicons/blob/master/LICENSE)
 
 **Project** [https://github.com/atisawd/boxicons](https://github.com/atisawd/boxicons)
 
